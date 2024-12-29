@@ -36,15 +36,12 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                        <a href="#price" class="nav-item nav-link">Price</a>
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <a href="#team" class="nav-item nav-link">Team</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="#about" class="nav-item nav-link">Acerca de nestor</a>
+                        <a href="#service" class="nav-item nav-link">Servicios de desarrollo</a>
+                        <a href="#experience" class="nav-item nav-link">Experiencia</a>
+                        <a href="#portfolio" class="nav-item nav-link">Proyectos existentes</a>
+                        <a href="#price" class="nav-item nav-link">Alquileres vacacionales</a>
+                        <a href="#contact" class="nav-item nav-link">Contactame</a>
                     </div>
                 </div>
             </div>
@@ -689,77 +686,25 @@
                 <div class="col-md-8">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form 
-                            action="https://formspree.io/f/xqkodeor" 
-                            method="POST" 
-                            name="contactForm" 
-                            id="contactForm" 
-                            novalidate="novalidate"
-                        >
-                            <div class="control-group">
-                                <label for="name">Tu Nombre</label>
-                                <input 
-                                    type="text" 
-                                    class="form-control" 
-                                    id="name" 
-                                    name="name" 
-                                    placeholder="Tu Nombre" 
-                                    required="required" 
-                                    data-validation-required-message="Por favor, ingresa tu nombre" 
-                                />
-                                <p class="help-block"></p>
-                            </div>
-                            <div class="control-group">
-                                <label for="email">Tu Correo Electrónico</label>
-                                <input 
-                                    type="email" 
-                                    class="form-control" 
-                                    id="email" 
-                                    name="_replyto" 
-                                    placeholder="Tu Correo Electrónico" 
-                                    required="required" 
-                                    data-validation-required-message="Por favor, ingresa tu correo electrónico" 
-                                />
-                                <p class="help-block"></p>
-                            </div>
-                            <div class="control-group">
-                                <label for="subject">Asunto</label>
-                                <input 
-                                    type="text" 
-                                    class="form-control" 
-                                    id="subject" 
-                                    name="subject" 
-                                    placeholder="Asunto" 
-                                    required="required" 
-                                    data-validation-required-message="Por favor, ingresa un asunto" 
-                                />
-                                <p class="help-block"></p>
-                            </div>
-                            <div class="control-group">
-                                <label for="message">Mensaje</label>
-                                <textarea 
-                                    class="form-control" 
-                                    id="message" 
-                                    name="message" 
-                                    placeholder="Mensaje" 
-                                    required="required" 
-                                    data-validation-required-message="Por favor, ingresa tu mensaje"
-                                ></textarea>
-                                <p class="help-block"></p>
-                            </div>
-                            <!-- Anti-spam Honeypot -->
-                            <div style="display:none;">
-                                <label>Deja este campo vacío</label>
-                                <input type="text" name="_gotcha" />
-                            </div>
-                            <!-- Redireccionamiento después del envío -->
-                            <input type="hidden" name="_next" value="https://tu-sitio-web.com/gracias.html">
-                            <!-- Notificación por correo electrónico -->
-                            <input type="hidden" name="_subject" value="Nuevo mensaje desde tu sitio web">
-                            <div>
-                                <button class="btn" type="submit" id="sendMessageButton">Enviar Mensaje</button>
-                            </div>
-                        </form>
+                        <!-- Opciones de Contacto Vía WhatsApp y Email -->
+                        <div class="contact-options">
+                            <!-- Botón de WhatsApp -->
+                            <a 
+                                class="btn whatsapp-btn" 
+                                href="https://wa.me/573124894828" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                            </a>
+                            <!-- Botón de Email -->
+                            <a 
+                                class="btn email-btn" 
+                                href="mailto:nescool101@gmail.com"
+                            >
+                                <i class="fa fa-envelope"></i> Enviar un Email
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -767,6 +712,7 @@
     </div>
 </div>
 <!-- Contact End -->
+
 
 
 
@@ -830,17 +776,16 @@
                 <div class="container">
                     <div class="footer-info">
                         <h2>Nestor Alvarez</h2>
-                        <h3>123 Street, New York, USA</h3>
+                        <h3>Usaquen, Bogota, Colombia</h3>
                         <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
+                            <p>+57 3124894828</p>
+                            <p>nescool101@gmail.com</p>
                         </div>
                         <div class="footer-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/nescool111"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/nescool101"><i class="fab fa-youtube"></i></a>
+                            <a href="https://github.com/nescool111"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/nfalvarezg/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
